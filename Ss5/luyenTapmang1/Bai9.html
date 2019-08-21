@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai9</title>
+</head>
+<body>
+<script>
+    let array1 = [];
+    let array2 = [];
+    let array3 = [];
+
+    function khoiTao() {
+        for (let i = 0; i < 20; i++) {
+            let random = Math.floor(Math.random() * 1000);
+            if (i % 2 == 0) {
+                array1.push([random]);
+            } else {
+                array2.push([random]);
+            }
+        }
+        return array1 + array2;
+    }
+
+    function noiMang() {
+        khoiTao();
+        array3 = array1.concat(array2);
+        return array3;
+    }
+
+
+    document.write('mang noi cua mang 1 va 2: ' + noiMang());
+</script>
+</body>
+</html>

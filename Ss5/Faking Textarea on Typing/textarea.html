@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Faking Textarea on Typing</title>
+</head>
+<body>
+<center>
+    <h2>Type anthing slowly</h2>
+    <form id="form">
+        <textarea id="tex" cols="40" rows="10" onkeydown ="textarea()"></textarea>
+    </form>
+</center>
+<script>
+    let array = ['N', 'G', 'U', 'Y', 'E', 'N', 'N', 'H', 'U', 'C', 'O', 'N', 'G'], n = "";
+
+    function textarea() {
+        let tex = document.getElementById('tex');
+        let doDai = array.length;
+        let long=tex.value.trim().length;
+        if (long>0) {
+            n="";
+            tex.value = n;
+
+            for (let i = 0; i <= long; i++) {
+                n +=array[i];
+                if (i == doDai) {
+                    tex.value = '';
+                    n = "";
+
+                }
+            }
+
+         setTimeout("textarea()", 1);
+        }
+
+    }
+</script>
+</body>
+</html>

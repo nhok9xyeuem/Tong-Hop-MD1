@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai8</title>
+</head>
+<body>
+<script>
+    let array = [];
+
+    function khoiTaoArray() {
+        for (let i = 0; i < 10; i++) {
+            let random = Math.floor(Math.random() * 100);
+            array.push([random]);
+        }
+        return array;
+    }
+
+    function sapXepGiam() {
+        khoiTaoArray();
+        array.sort(function (a, b) {
+            return b - a
+        });
+        return array;
+    }
+
+    function sapXepTang() {
+        array.sort(function (a, b) {
+            return -b
+        });
+        return array;
+    }
+
+    document.write(sapXepGiam() + '<hr>');
+    document.write(sapXepTang());
+</script>
+</body>
+</html>

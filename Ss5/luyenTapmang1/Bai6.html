@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai6</title>
+</head>
+<body>
+<script>
+    let array = [];
+
+    function khoiTao() {
+        for (let i = 0; i < 10; i++) {
+            let random = Math.floor(Math.random() * 20);
+            array.push([random]);
+        }
+        return array;
+    }
+
+    function kiemTra() {
+        khoiTao();
+        let number = parseInt(prompt('moi ban nhap so de kiem tra "so<20" :'));
+        count = 0;
+        for (let i = 0; i < array.length; i++) {
+
+            if (number == parseInt(array[i])) {
+                count++;
+            }
+        }
+        if (count > 0) {
+          document.write('phan tu ban tim nam trong mang <hr> ')
+        } else {
+            document.write('phan tu ban tim khong co trong mang <hr>');
+        }
+        return array;
+    }
+
+    document.write(kiemTra());
+</script>
+</body>
+</html>

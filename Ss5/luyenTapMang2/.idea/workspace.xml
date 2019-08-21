@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="658645a5-ae52-4ba0-8f9a-a06b9b6da9e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../C0719G1_Array" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Faking Textarea on Typing/.idea/Faking Textarea on Typing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Faking Textarea on Typing/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Faking Textarea on Typing/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Faking Textarea on Typing/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Faking Textarea on Typing/qw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Faking Textarea on Typing/textarea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Su-dung-cac-ham-co-san/.idea/Su-dung-cac-ham-co-san.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Su-dung-cac-ham-co-san/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Su-dung-cac-ham-co-san/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Su-dung-cac-ham-co-san/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Su-dung-cac-ham-co-san/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Su-dung-cac-ham-co-san/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Su-dung-cac-ham-co-san/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tu Dien/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tu Dien/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tu Dien/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tu Dien/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tu Dien/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tu Dien/tu-dien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/.idea/luyenTapmang1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/Bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/Bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/Bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/Bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../luyenTapmang1/Bai9.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1PcbtcyflQlFWrshlzskctniPVK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="658645a5-ae52-4ba0-8f9a-a06b9b6da9e4" name="Default Changelist" comment="" />
+      <created>1566176548204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566176548204</updated>
+      <workItem from="1566176552678" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hieu ung gradient</title>
+</head>
+<body>
+<canvas id="myCanvas" width="500" height="500" style="border:1px solid #d3d3d3;">
+    ve duong thang</canvas>
+<SCRIPT>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+
+    // Create gradient
+    var grd = ctx.createLinearGradient(0,0,200,0);
+    grd.addColorStop(0,"black");
+    grd.addColorStop(1,"red");
+
+    // Fill with gradient
+    ctx.fillStyle = grd;
+    ctx.fillRect(10,10,150,80);
+</SCRIPT>
+</body>
+</html>

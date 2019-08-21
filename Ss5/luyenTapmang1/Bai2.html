@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai2</title>
+</head>
+<body>
+<script>
+    let array=[];
+    function taoMang() {
+        for (let i= 0 ; i<10;i++ ){
+            let a=Math.floor(Math.random()*100);
+            array.push(a)
+        }
+        return array;
+    }
+    function max() {
+        let max=array[0];
+        for (let i=1;i<array.length;i++){
+            if (max<array[i]){
+                max=array[i];
+            }
+        }return max;
+    }
+    console.log(taoMang());
+    console.log(max());
+</script>
+</body>
+</html>

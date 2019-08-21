@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Quản Lý Sản Phẩm</h1>
+<input id="add">
+<button type="button" onclick="themSanPham()">Thêm Sản Phẩm</button>
+<br>
+<button type="button" onclick="danhSachSanPham()">Danh Sach San Pham</button>
+<button type="button" onclick="xoaSanPham()">Delete</button>
+<button type="button" onclick="timKiem()">Tim Kiem</button>
+<p id="sanpham"></p>
+<script>
+    let sanpham = [];
+
+    function danhSachSanPham() {
+        document.getElementById('sanpham').innerHTML = sanpham;
+    }
+
+    function timKiem() {
+        let timkiem = document.getElementById('add').value;
+        for (let i = 0; i < sanpham.length; i++) {
+            if (timkiem == sanpham[i]) {
+                document.getElementById('sanpham').innerHTML = sanpham[i];
+                return;
+            }
+        }
+
+        document.getElementById('sanpham').innerHTML = 'san pham ban tim khong co trong danh sach';
+
+    }
+
+    function xoaSanPham() {
+        let timkiem = document.getElementById('add').value;
+        for (let i = 0; i < sanpham.length; i++) {
+            if (timkiem == sanpham[i]) {
+                sanpham.splice(i, 1);
+            }
+        }
+    }
+
+    function suaSanPham() {
+        let timkiem = document.getElementById('add').value;
+        for (let i = 0; i < sanpham.length; i++) {
+            if (timkiem == sanpham[i]) {
+                sanpham[i] = prompt('moi ban thay doi ');
+            }
+        }
+    }
+
+    function themSanPham() {
+        sanpham.push(document.getElementById('add').value);
+    }
+        danhSachSanPham();
+    // function setUp() {
+    //     let name = '<table border="4">';
+    //     alert(sanpham.length);
+    //     for (let i = 0; i < sanpham.length; i++) {
+    //         name += '<tr>';
+    //         name += "<td>" + (i + 1) + "</td>" + "<td>" + sanpham[i] + "</td>" + "<td>" +
+    //             "<button id='"+i+" style='width: 100%' onclick='suaSanPham()'>Edit</button>" +
+    //             "</td>" + "<td>" + "<button id='"+i+" style='width: 100%' onclick='xoaSanPham()'>Delete</button>"
+    //             + "</td>" + "</tr>";
+    //     }
+    //     name = "</table>";
+    //     document.getElementById('sanpham').innerHTML = name;
+    // }
+
+</script>
+</body>
+</html>

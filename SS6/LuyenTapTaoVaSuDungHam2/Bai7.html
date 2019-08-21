@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai7</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt('gia tri 1'));
+    let b = parseInt(prompt('gia tri 2'));
+    let array = [];
+    array.push(a,b);
+    function doiCho() {
+        let c = array[0];
+        array[0] = array[1];
+        array[1] = c;
+        return array;
+    }
+
+
+    document.write(doiCho(array));
+</script>
+</body>
+</html>

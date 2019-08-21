@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="input" type="number" >
+<button type="button" onclick="tinhsonguyento()">Click</button>
+
+<script>
+    function tinhsonguyento(){
+let n=document.getElementById('input').value;
+
+        if (n < 2){
+            return false;
+        }
+        else if(n=2){
+            return  true
+        }
+        else {
+
+            for (i = 2; i <n ; i++) {
+                if (n % i == 0) {
+                    return false;
+                    alert(i);
+                }
+            }
+        }
+
+        return true;
+    }
+</script>
+</body>
+</html>

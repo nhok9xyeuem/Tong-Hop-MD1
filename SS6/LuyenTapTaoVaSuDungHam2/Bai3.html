@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai3</title>
+</head>
+<body>
+<script>
+    function giaiThua() {
+        let number = parseInt(prompt(' moi ban nhap gia tri :'));
+        let ketqua = 1;
+        for (let i = 1; i <= number; i++) {
+            ketqua = ketqua * i;
+        }
+        return ketqua;
+    }
+    alert(giaiThua());
+
+    // let number=parseInt(prompt());
+    // function giaiThua(number){
+    //     if (number<=1){
+    //         return 1;
+    //     }
+    //     return number*giaiThua(number-1);
+    // }
+    // alert(giaiThua(number));
+</script>
+</body>
+</html>

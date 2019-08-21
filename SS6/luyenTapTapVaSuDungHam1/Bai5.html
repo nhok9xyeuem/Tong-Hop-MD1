@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai5</title>
+</head>
+<body>
+<script>
+    let arr=['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    let arr2=['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major','Leo'];
+    let ngoisao=prompt('moi ban nhap ten ngoi sao');
+    let index= arr.indexOf(ngoisao);
+    function timNgoiSao() {
+        if (index!=-1){
+            alert(arr2[index]);
+
+        }
+        else {
+            alert(' khong tim thay ten ngoi sao ');
+        }
+
+    }
+    timNgoiSao();
+</script>
+</body>
+</html>

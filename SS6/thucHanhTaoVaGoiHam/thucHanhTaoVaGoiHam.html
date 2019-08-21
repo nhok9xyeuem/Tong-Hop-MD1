@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thuc Hanh</title>
+</head>
+<body>
+<script>
+function processConfirm(ansuer) {
+    let ansult='';
+    if (ansuer){
+        ansult = 'hello';
+    }else {
+        ansult = ' nothing';
+    }
+    return ansult;
+}
+let confirmAnswer = confirm ('moi vao');
+let theansuer= processConfirm(confirmAnswer);
+document.write(theansuer);
+</script>
+
+</body>
+</html>

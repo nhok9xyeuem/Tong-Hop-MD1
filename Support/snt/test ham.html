@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+<script>
+    let sanPham = ['a', 'b', 'c'];
+
+    function themSanPham() {
+        sanPham.push(prompt('moi ban nhap ten san pham'));
+    }
+
+    function timKiemSanPham() {
+        let timkiem = prompt('moi ban nhap san pham can doi ten');
+        for (let i = 0; i < sanPham.length; i++) {
+            if (timkiem === sanPham[i]) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    function suaTenSanPham(id) {
+
+    }
+
+    function xoaSanPham([i]) {
+            sanPham.splice([i], 1);
+        }
+
+    function hienThi() {
+        document.write(sanPham);
+    }
+
+</script>
+</body>
+</html>

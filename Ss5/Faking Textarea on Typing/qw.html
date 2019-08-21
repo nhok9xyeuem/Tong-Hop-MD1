@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    <h2>Type anthing slowly</h2>
+    <form>
+        <textarea id="tex" cols="40" rows="10" onkeydown="textarea()"></textarea>
+    </form>
+</center>
+<script>
+    function textarea() {
+        let array = ['N', 'G', 'U', 'Y', 'E', 'N', 'N', 'H', 'U', 'C', 'O', 'N', 'G'], n = "";
+
+        let tex = document.getElementById('tex').value;
+        leng = tex.length;
+        if (leng > 0) {
+            for (var i = 0; i <= leng; i++) {
+                n += array[i];
+                if (i == array.length) {
+                    n = "";
+                    tex.value = "";
+
+                }
+            }
+        }
+        {
+            n = "";
+            tex.value = n;
+            setTimeout("textarea()", 1);
+        }
+    }
+</script>
+</body>
+</html>

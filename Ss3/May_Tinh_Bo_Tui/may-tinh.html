@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>May Tinh</title>
+
+</head>
+<body>
+<style>
+    button{
+        width: 100%;
+    }
+</style>
+<table >
+    <tr>
+    <td colspan="4">
+        <input id="output">
+    </td>
+</tr>
+<tr>
+    <td>
+        <button value="(" onclick="set(this.value)">(</button>
+    </td>
+    <td>
+        <button value=")" onclick="set(this.value)">)</button>
+    </td>
+    <td>
+        <button  onclick="del(this.value)">DEL</button>
+    </td>
+    <td>
+        <button onclick="clean(this.value)">AC</button>
+    </td>
+</tr>
+<tr>
+    <td>
+        <button value="7" onclick="set(this.value)">7</button>
+    </td>
+    <td>
+        <button value="8" onclick="set(this.value)">8</button>
+    </td>
+    <td>
+        <button value="9" onclick="set(this.value)">9</button>
+    </td>
+    <td>
+        <button value="/" onclick="set(this.value)">/</button>
+    </td>
+</tr>
+<tr>
+    <td>
+        <button value="4" onclick="set(this.value)">4</button>
+    </td>
+    <td>
+        <button value="5" onclick="set(this.value)">5</button>
+    </td>
+    <td>
+        <button value="6" onclick="set(this.value)">6</button>
+    </td>
+    <td>
+        <button value="*" onclick="set(this.value)">x</button>
+    </td>
+</tr>
+<tr>
+    <td>
+        <button value="1" onclick="set(this.value)">1</button>
+    </td>
+    <td>
+        <button value="2" onclick="set(this.value)">2</button>
+    </td>
+    <td>
+        <button value="3" onclick="set(this.value)">3</button>
+    </td>
+    <td>
+        <button value="-" onclick="set(this.value)">-</button>
+    </td>
+</tr>
+<tr>
+    <td>
+        <button value="0" onclick="set(this.value)">0</button>
+    </td>
+    <td>
+        <button value="." onclick="set(this.value)">.</button>
+    </td>
+    <td>
+        <button onclick="trave(this.value)">=</button>
+    </td>
+    <td>
+        <button value="+" onclick="set(this.value)">+</button>
+    </td>
+</tr>
+</table>
+<script src="maytinh.js"></script>
+</body>
+</html>

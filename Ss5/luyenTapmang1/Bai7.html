@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai7</title>
+</head>
+<body>
+<script>
+    let array = [];
+
+    function khoiTao() {
+        for (let i = 0; i < 10; i++) {
+            let random = Math.floor(Math.random() * 20);
+            array.push([random]);
+        }
+        return array;
+    }
+
+    function kiemTra() {
+        // alert(khoiTao());
+        document.write('mang khoi tao random gom nhưng phan tu : ' + khoiTao() + '<hr>');
+        let number = parseInt(prompt('moi ban nhap so de kiem tra "so<20" :'));
+        count = 0;
+        for (let i = 0; i < array.length; i++) {
+
+            if (number == parseInt(array[i])) {
+                array.splice(i,1);
+                count++;
+            }
+        }
+        if (count > 0) {
+            for (let i = 0; i <= count; i++) {
+                array.push('');
+            }
+        } else {
+            document.write('phan tu ban tim khong co trong mang'+' <hr>');
+        }
+        return array;
+    }
+
+    document.write('mang tra ve là : '+kiemTra());
+</script>
+
+</body>
+</html>

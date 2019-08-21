@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai8</title>
+</head>
+<body>
+<SCRIPT>
+    function sapXep() {
+        let array=[];
+        let number=parseInt(prompt('moi ban nhap so luong phan tu '));
+        for (let i=0;i<number;i++){
+            let a = parseInt(prompt('moi ban nhap gia tri thu :'+ i));
+            array.push(a);
+        }
+        array.sort(function(a, b){return a - b});
+return array;
+    }
+    alert(sapXep());
+</SCRIPT>
+</body>
+</html>

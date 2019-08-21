@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai4</title>
+</head>
+<body>
+<script>
+    let array = [];
+
+    function khoiTaoArray() {
+        let number = parseInt(prompt('moi ban nhap so phan tu'));
+        for (let i = 0; i < number; i++) {
+            let random = Math.floor(Math.random() * 100);
+            array.push([random]);
+        }
+        return array;
+    }
+
+    khoiTaoArray();
+    document.write(array + '<hr>');
+    array.reverse();
+    document.write(array);
+
+</script>
+</body>
+</html>

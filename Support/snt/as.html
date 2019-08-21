@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="showProduct(arrName)">
+<style>
+    td {
+        width: 50px;
+    }
+</style>
+
+
+<h2>Add New Product</h2>
+<input id='input' placeholder='New Product'>
+<button onclick='setAddProduct()'>Add</button>
+<p id="name"></p>
+
+<script>
+    let arrName = [];
+
+
+    function showProduct(arr) {
+        let name = '';
+        name += '<table border="4">';
+        for (let i = 0; i < arr.length; i++) {
+            name += "<tr>";
+            name += "<td>" + (i + 1) + "</td>" + "<td>" + arr[i] + "</td>" + "<td>" +
+                "<button style='width: 100%' onclick='editProduct()'>Edit</button>" +
+                "</td>" + "<td>" + "<button>Delete</button>"
+                + "</td>" + "</tr>";
+        }
+        name += "</table>";
+        document.getElementById('name').innerHTML = name;
+    }
+
+    function setAddProduct() {
+        let addArr = document.getElementById('input').value;
+        arrName.push(addArr);
+        document.getElementById('input').value = '';
+        showProduct(arrName);
+    }
+function edit() {
+        azzz
+
+}
+
+</script>
+</body>
+</html>

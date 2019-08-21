@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai5</title>
+</head>
+<body>
+<SCRIPT>
+    let array=[];
+    function khoiTaoArray() {
+        let number=parseInt(prompt());
+        for (let i=0;i<number;i++){
+            let random=Math.floor(Math.random()*100+(-50));
+            array.push([random]);
+        }
+        return array;
+    }
+    function nguyenAm(){
+        let array2=[];
+        for (let i=0;i<array.length;i++){
+            if (array[i]<0){
+                array2.push(array[i]);
+            }
+        }
+        return array2;
+    }
+    document.write(khoiTaoArray()+'<hr>');
+    document.write(nguyenAm());
+
+</SCRIPT>
+</body>
+</html>

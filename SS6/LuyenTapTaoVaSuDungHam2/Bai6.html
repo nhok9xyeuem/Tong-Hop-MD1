@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai6</title>
+</head>
+<body>
+<script>
+
+    let number = prompt('moi ban nhap gia tri').trim();
+    let number1 = parseFloat(number);
+    number1 = number1.toString();
+    function kiemTra() {
+        if (number1 == number) {
+            if (number >= 0) {
+                return true
+            } else {
+                return false
+            }
+        } else {
+            return false;
+        }
+    }
+
+    alert(kiemTra());
+</script>
+</body>
+</html>

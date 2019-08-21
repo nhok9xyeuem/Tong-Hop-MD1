@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tu Dien</title>
+</head>
+<body>
+<input type="text" id="nhapvao">
+<button type="button" onclick="tudien()"> Kiem Tra</button>
+<script>
+    function tudien() {
+        let anh = ['love', 'life', 'name'];
+        let viet = ['yeu', 'cuoc song', 'ten'];
+        let nhapvao = document.getElementById('nhapvao').value;
+        let index = anh.indexOf(nhapvao);
+        if (index!==-1){
+             document.write(viet[index]);
+
+        }
+        else {
+            document.write('khong co trong tu dien')
+        }
+        // let nghia = '';
+        // count = 0;
+
+        // for (let i = 0; i < viet.length; i++) {
+        //     if (nhapvao == anh[i]) {
+        //         nghia = viet[i];
+        //         count++;
+        //     }
+        // }
+        //     if (count > 0) {
+        //         document.write(nghia)
+        //     } else {
+        //         document.write('tu ban nhap khong co trong tu dien');
+        //     }
+
+
+    }
+</script>
+</body>
+</html>

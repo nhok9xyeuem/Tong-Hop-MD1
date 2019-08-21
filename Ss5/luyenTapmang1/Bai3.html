@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai3</title>
+</head>
+<body>
+<script>
+let array=[];
+function khoiTaoMang() {
+    let number=parseInt(prompt('moi ban nhap so phan tu'));
+    for (let i=0;i<number;i++){
+        let random =Math.floor(Math.random()*10);
+        array.push([random]);
+    }
+    return array;
+}
+function max() {
+    let max=array[0];
+    for (let i=1;i<array.length;i++){
+        if (max<array[i]){
+            max=array[i];
+        }
+    }return max;
+}
+function tinhTrungBinhArray() {
+    let tb;
+    let sum=0;
+    for (let i=0;i<array.length;i++){
+        sum+= parseInt(array[i]);
+    }
+    tb=sum/array.length;
+    return tb;
+
+}
+console.log(khoiTaoMang());
+console.log(max());
+console.log(tinhTrungBinhArray());
+</script>
+</body>
+</html>
